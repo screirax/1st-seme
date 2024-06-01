@@ -1,0 +1,23 @@
+
+ .position-relative {
+    position: relative;
+}
+/*dette styrer knappen på forsiden så den vises præcis hvor den er*/
+.center-button {
+    background-color: #49DF61;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center-button:hover {
+    background-color: #49DF61; /* Ændre baggrundsfarven ved hover */
+}
+/* Responsiv tilpasning for mindre skærme */
+@media (max-width: 768px) {
+    .center-button {
+        width: 30%;
+        top: 70%;
+        font-size: 1rem;
+    }
+}
